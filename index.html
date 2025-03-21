@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salihin için Brawl Stars Rehberi</title>
+    <style>
+        :root {
+            --primary: #9c27b0;
+            --secondary: #673ab7;
+            --dark: #311b92;
+            --light: #d1c4e9;
+            --danger: #f44336;
+            --success: #4caf50;
+            --warning: #ff9800;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        
+        .card-header {
+            background-color: var(--dark);
+            color: white;
+            padding: 1rem;
+            font-weight: bold;
+        }
+        
+        .card-body {
+            padding: 1.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            background-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-danger {
+            background-color: var(--danger);
+        }
+        
+        .btn-success {
+            background-color: var(--success);
+        }
+        
+        .btn-warning {
+            background-color: var(--warning);
+        }
+        
+        .progress-container {
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            height: 20px;
+            width: 100%;
+            margin: 1rem 0;
+        }
+        
+        .progress-bar {
+            background: linear-gradient(to right, var(--danger), var(--primary));
+            height: 100%;
+            border-radius: 10px;
+            width: 85%;
+            transition: width 1s ease;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        .testimonial {
+            font-style: italic;
+            padding: 1rem;
+            background-color: var(--light);
+            border-left: 4px solid var(--primary);
+            margin: 1rem 0;
+        }
+        
+        .chart {
+            height: 300px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+        
+        .chart-bar {
+            background: linear-gradient(to top, var(--primary), var(--secondary));
+            border-radius: 8px 8px 0 0;
+            width: 40px;
+            margin: 0 5px;
+            position: relative;
+        }
+        
+        .chart-label {
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        
+        .danger-zone {
+            background-color: rgba(244, 67, 54, 0.1);
+            border: 2px dashed var(--danger);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 2rem 0;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brawl Stars'a Veda Zamanı</h1>
+        <p>Salihin için profesyonel rehber</p>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                Mevcut Durum Analizi
+            </div>
+            <div class="card-body">
+                <h2>Salihin'in Brawl Stars Bağımlılık Seviyesi</h2>
+                
+                <div class="progress-container">
+                    <div class="progress-bar"></div>
+                </div>
+                
+                <p>Seviye: <strong>Tehlikeli Derecede Yüksek</strong></p>
+                
+                <p>Değerli Salihin, yapılan analizlere göre Brawl Stars oyun alışkanlığın sağlıklı sınırların çok üzerinde. Profesyonel değerlendirmemize göre, oyun süren ve sıklığın ivedilikle azaltılmalı ve nihayetinde tamamen bırakılmalıdır.</p>
+                
+                <a href="#neden-birakmali" class="btn">Neden Bırakmalıyım?</a>
+            </div>
+        </div>
+        
+        <div class="card" id="neden-birakmali">
+            <div class="card-header">
+                Brawl Stars'ı Bırakma Nedenleri
+            </div>
+            <div class="card-body">
+                <div class="grid">
+                    <div class="feature">
+                        <div class="feature-icon">⏰</div>
+                        <h3>Zaman Kaybı</h3>
+                        <p>Brawl Stars'ta harcadığın her saat, gerçek hayatta başarılı olman için kullanabileceğin değerli zamanından çalıyor.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🧠</div>
+                        <h3>Zihinsel Sağlık</h3>
+                        <p>Oyun kaynaklı stres, sinir ve hayal kırıklığı ruh sağlığını olumsuz etkiliyor.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                        <h3>Sosyal İlişkiler</h3>
+                        <p>Gerçek sosyal ilişkilerin zayıflıyor, aile ve arkadaşlarınla geçirdiğin kaliteli zaman azalıyor.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">📚</div>
+                        <h3>Akademik Başarı</h3>
+                        <p>Ders çalışma süren ve akademik performansın düşüyor, geleceğin risk altına giriyor.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">💪</div>
+                        <h3>Fiziksel Sağlık</h3>
+                        <p>Hareketsiz yaşam tarzı, göz yorgunluğu ve duruş bozuklukları gibi sağlık sorunları gelişiyor.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🌈</div>
+                        <h3>Gerçek Potansiyelin</h3>
+                        <p>Gerçek hayatta başarabileceğin çok daha değerli şeyler var! Yeteneklerini keşfetme şansını kaçırıyorsun.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                Brawl Stars'ın Zaman Maliyeti
+            </div>
+            <div class="card-body">
+                <h3>Bir Ayda Brawl Stars'a Harcanan Ortalama Süre</h3>
+                
+                <div class="chart">
+                    <div class="chart-bar" style="height: 80%;">
+                        <span class="chart-label">Brawl Stars<br>90 saat</span>
+                    </div>
+                    <div class="chart-bar" style="height: 30%;">
+                        <span class="chart-label">Ders Çalışma<br>30 saat</span>
+                    </div>
+                    <div class="chart-bar" style="height: 20%;">
+                        <span class="chart-label">Kitap Okuma<br>15 saat</span>
+                    </div>
+                    <div class="chart-bar" style="height: 15%;">
+                        <span class="chart-label">Spor<br>10 saat</span>
+                    </div>
+                    <div class="chart-bar" style="height: 10%;">
+                        <span class="chart-label">Hobi<br>5 saat</span>
+                    </div>
+                </div>
+                
+                <p><strong>Şok Edici Gerçek:</strong> Brawl Stars'ta harcadığın süreyle 2 yabancı dil öğrenebilir, bir müzik aleti çalmayı öğrenebilir veya profesyonel bir spor dalında uzmanlaşabilirdin!</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                Başarılı Bırakanların Hikayeleri
+            </div>
+            <div class="card-body">
+                <div class="testimonial">
+                    "Brawl Stars'ı bıraktıktan sonra okul notlarım yükseldi, yeni arkadaşlar edindim ve şimdi basketbol takımındayım. Hayatım tamamen değişti!" - Ahmet, 15
+                </div>
+                
+                <div class="testimonial">
+                    "İlk günler çok zordu ama bıraktıkça faydalarını görmeye başladım. Şimdi kodlama öğreniyorum ve kendi oyunumu yapma yolundayım." - Zeynep, 16
+                </div>
+                
+                <div class="testimonial">
+                    "Brawl Stars'a haftada 40 saat harcıyordum. Bıraktıktan sonra ailemle ilişkilerim düzeldi ve üniversite sınavında başarılı oldum." - Mehmet, 18
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                Profesyonel Bırakma Planı
+            </div>
+            <div class="card-body">
+                <h3>7 Adımlı Bırakma Stratejisi</h3>
+                
+                <ol style="margin-left: 20px;">
+                    <li>
+                        <strong>Karar Ver ve Taahhüt Et:</strong> Oyunu bırakma kararını yazıya dök ve görünür bir yere as.
+                    </li>
+                    <li>
+                        <strong>Aşamalı Azaltma:</strong> İlk hafta günlük oyun süresini yarıya indir, ikinci hafta dörtte bire indir.
+                    </li>
+                    <li>
+                        <strong>Telefon Ayarları:</strong> Ekran süresi sınırlaması koy ve bildirimlerini kapat.
+                    </li>
+                    <li>
+                        <strong>Alternatif Aktiviteler:</strong> Boş zamanlarını dolduracak yeni hobiler edin (spor, müzik, sanat).
+                    </li>
+                    <li>
+                        <strong>Destek Sistemi:</strong> Ailenle ve arkadaşlarınla hedefini paylaş, destek iste.
+                    </li>
+                    <li>
+                        <strong>İlerleme Takibi:</strong> Her gün "Brawl Stars'sız geçen gün" sayısını kaydet ve başarılarını kutla.
+                    </li>
+                    <li>
+                        <strong>Tamamen Silme:</strong> 21 günün sonunda oyunu tamamen telefonundan kaldır.
+                    </li>
+                </ol>
+                
+                <div class="danger-zone">
+                    <h3>⚠️ Acil Eylem Gerektiren Durum ⚠️</h3>
+                    <p>Değerli Salihin, analiz sonuçlarına göre durumun ciddi. Lütfen aşağıdaki adımı HEMEN uygula:</p>
+                    <a href="#" class="btn btn-danger">HEMEN BRAWL STARS'I SİL</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                Daha İyi Bir Gelecek İçin
+            </div>
+            <div class="card-body">
+                <h3>Brawl Stars'ı Bıraktığında Kazanacakların</h3>
+                
+                <div class="grid">
+                    <div class="feature">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Gerçek Başarılar</h3>
+                        <p>Sanal kupalar yerine gerçek hayatta elde edeceğin başarılar ve diplomalar.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">💰</div>
+                        <h3>Tasarruf</h3>
+                        <p>Oyun içi satın almalara harcadığın para cebinde kalacak.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">😊</div>
+                        <h3>Daha Mutlu Yaşam</h3>
+                        <p>Oyun yenilgisi stresi olmadan, daha dengeli ve mutlu bir ruh hali.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Sınırsız Potansiyel</h3>
+                        <p>Yeni beceriler öğrenmek ve gelecekte daha iyi fırsatlara sahip olmak için zaman.</p>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="#" class="btn btn-success">YENİ HAYATIMA BAŞLIYORUM</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 Salihin'in Daha İyi Geleceği İçin</p>
+        <p>Bu site profesyonel danışmanlar tarafından Salihin'in iyiliği için hazırlanmıştır.</p>
+    </footer>
+</body>
+</html>
